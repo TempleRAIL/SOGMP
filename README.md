@@ -25,6 +25,7 @@ There are three different datasets collected by three different robot models (i.
 ## Usage: SOGMP (The inference speed is faster than SOGMP++)
 * Download OGM-datasets from https://doi.org/10.5281/zenodo.7051560 and decompress them to the home directory:
 ```Bash
+cd ~
 tar -zvxf OGM-datasets.tar.gz
 ```
 * Training:
