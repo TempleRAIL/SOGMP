@@ -27,15 +27,15 @@ tar -zvxf OGM-datasets.tar.gz
 * Training:
 ```Bash
 git clone https://github.com/TempleRAIL/SOGMP.git
-git checkout -b sogmp
 cd ./SOGMP 
+git checkout sogmp
 sh run_train.sh ~/data/OGM-datasets/OGM-Turtlebot2/train ~/data/OGM-datasets/OGM-Turtlebot2/val
 ```
 * Inference Demo on OGM-Turtlebot2 dataset: 
 ```Bash
 git clone https://github.com/TempleRAIL/SOGMP.git
 cd ./SOGMP 
-git checkout -b sogmp
+git checkout sogmp
 sh run_eval_demo.sh  ~/data/OGM-datasets/OGM-Turtlebot2/test
 ```
 
