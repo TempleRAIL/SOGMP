@@ -44,7 +44,10 @@ sh run_eval_demo.sh  ~/data/OGM-datasets/OGM-Turtlebot2/test
 @article{xie2022stochastic,
   title={Stochastic Occupancy Grid Map Prediction in Dynamic Scenes},
   author={Xie, Zhanteng and Dames, Philip},
-  year={2022}
+  year={2022},
+  publisher = {{IEEE}},
+  journal={IEEE Robotics and Automation Letters},
+  note = {Under review}
 }
 
 ```
