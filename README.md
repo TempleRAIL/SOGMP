@@ -1,6 +1,6 @@
 # SOGMP++/SOGMP: Stochastic Occupancy Grid Map Prediction in Dynamic Scenes
 
-Implementation code for our paper "Stochastic Occupancy Grid Map Prediction in Dynamic Scenes". 
+Implementation code for our paper ["Stochastic Occupancy Grid Map Prediction in Dynamic Scenes"](https://arxiv.org/pdf/2210.08577.pdf). 
 Two stochastic occupancy grid map (OGM) predictor algorithms (i.e. SOGMP and SOGMP++) implemented by pytorch. 
 Here are three GIFs showing the occupancy grid map prediction comparison results (0.5s, or 5 time steps into the future) of our proposed SOGMP++, SOGMP algorithms, and ConvLSTM, PhyDNet baselines on three different datasets with different robot models.
 * OGM-Turtlebot2: 
@@ -69,10 +69,8 @@ sh run_eval_demo.sh  ~/data/OGM-datasets/OGM-Turtlebot2/test
 @article{xie2022stochastic,
   title={Stochastic Occupancy Grid Map Prediction in Dynamic Scenes},
   author={Xie, Zhanteng and Dames, Philip},
-  year={2022},
-  publisher = {{IEEE}},
-  journal={IEEE Robotics and Automation Letters},
-  note = {Under review}
+  journal={arXiv preprint arXiv:2210.08577},
+  year={2022}
 }
 
 ```
