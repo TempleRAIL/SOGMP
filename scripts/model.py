@@ -29,8 +29,6 @@ import random
 #
 SEED1 = 1337
 NEW_LINE = "\n"
-IMG_SIZE = 64 #400
-Z_SIZE = 256*2
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -321,6 +319,7 @@ class RVAEP(nn.Module):
         self.input_channels = input_channels
         self.latent_dim = latent_dim
         self.output_channels = output_channels
+        self.z_w = int(np.sqrt(latent_dim//2))
 
         # Constants
         num_hiddens = 128 
@@ -398,7 +397,7 @@ class RVAEP(nn.Module):
     
         # decode:
         # reshape:
-        z = z.reshape(-1, 2, 16, 16)
+        z = z.reshape(-1, 2, self.z_w, self.z_w)
         x_d = self._decoder_z_mu(z)
         prediction = self._decoder(x_d)
 
