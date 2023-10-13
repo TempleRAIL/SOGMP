@@ -2,6 +2,7 @@
 
 Implementation code for our paper ["Stochastic Occupancy Grid Map Prediction in Dynamic Scenes"](https://openreview.net/pdf?id=fSmkKmWM5Ry)([arXiv](https://arxiv.org/abs/2210.08577)) in Conference on Robot Learning (CoRL) 2023. 
 Two stochastic occupancy grid map (OGM) predictor algorithms (i.e. SOGMP and SOGMP++) implemented by pytorch. 
+Video demos can be found at [multimedia demonstrations](https://youtu.be/lRxuADBL32U).
 Here are three GIFs showing the occupancy grid map prediction comparison results (0.5s, or 5 time steps into the future) of our proposed SOGMP++, SOGMP algorithms, and ConvLSTM, PhyDNet, DeepTracking, and SOGMP_NEMC baselines on three different datasets with different robot models.
 * OGM-Turtlebot2: 
 ![turtlebot2_prediction_demo](demo/1.OGM-Turtlebot2_5th_OGM_Prediction_Demo.gif "turtlebot2_prediction_demo") 
@@ -66,7 +67,16 @@ sh run_eval_demo.sh  ~/data/OGM-datasets/OGM-Turtlebot2/test
 
 ## Citation
 ```
-@article{xie2022stochastic,
+@inproceedings{
+xie2023stochastic,
+title={Stochastic Occupancy Grid Map Prediction in Dynamic Scenes},
+author={Zhanteng Xie and Philip Dames},
+booktitle={7th Annual Conference on Robot Learning},
+year={2023},
+url={https://openreview.net/forum?id=fSmkKmWM5Ry}
+}
+
+@article{xie2023stochastic,
   title={Stochastic Occupancy Grid Map Prediction in Dynamic Scenes},
   author={Xie, Zhanteng and Dames, Philip},
   journal={arXiv preprint arXiv:2210.08577},
