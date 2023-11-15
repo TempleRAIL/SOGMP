@@ -17,14 +17,14 @@ Here are three GIFs showing the occupancy grid map prediction comparison results
 * tensorboard
 
 ## OGM-Datasets
-The related datasets can be found at: https://doi.org/10.5281/zenodo.7051560. 
+The related datasets can be found at [OGM-datasets](https://doi.org/10.5281/zenodo.7051560)  
 There are three different datasets collected by three different robot models (i.e. Turtlebot2, Jackal, Spot).
 * 1.OGM-Turtlebot2: collected by a simulated Turtlebot2 with a maximum speed of 0.8 m/s navigates around a lobby Gazebo environment with 34 moving pedestrians using random start points and goal points
 * 2.OGM-Jackal: extracted from two sub-datasets of the socially compliant navigation dataset (SCAND), which was collected by the Jackal robot with a maximum speed of 2.0 m/s at the outdoor environment of the UT Austin
 * 3.OGM-Spot: extracted from two sub-datasets of the socially compliant navigation dataset (SCAND), which was collected by the Spot robot with a maximum speed of 1.6 m/s at the Union Building of the UT Austin
 
 ## Usage: SOGMP (The inference speed is faster than SOGMP++)
-* Download OGM-datasets from https://doi.org/10.5281/zenodo.7051560 and decompress them to the home directory:
+* Download [OGM-datasets](https://doi.org/10.5281/zenodo.7051560) and decompress them to the home directory:
 ```Bash
 cd ~
 tar -zvxf OGM-datasets.tar.gz
@@ -45,7 +45,7 @@ sh run_eval_demo.sh  ~/data/OGM-datasets/OGM-Turtlebot2/test
 ```
 
 ## Usage: SOGMP++ (The prediction accuracy is higher than SOGMP)
-* Download OGM-datasets from https://doi.org/10.5281/zenodo.7051560 and decompress them to the home directory:
+* Download [OGM-datasets](https://doi.org/10.5281/zenodo.7051560) and decompress them to the home directory:
 ```Bash
 cd ~
 tar -zvxf OGM-datasets.tar.gz
@@ -80,7 +80,7 @@ url={https://openreview.net/forum?id=fSmkKmWM5Ry}
   title={Stochastic Occupancy Grid Map Prediction in Dynamic Scenes},
   author={Xie, Zhanteng and Dames, Philip},
   journal={arXiv preprint arXiv:2210.08577},
-  year={2022}
+  year={2023}
 }
 
 ```
